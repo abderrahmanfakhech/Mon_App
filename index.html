@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d3b31">
+  <meta name="description" content="Cap Budget analyse tes dépenses d'étudiant, prévoit ton budget de fin de mois et te donne des conseils personnalisés. 100 % local, en dirhams.">
+  <title>Cap Budget — Ton budget étudiant, sous contrôle</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230D5C4A'/%3E%3Cpath d='M18 42V30M32 42V22M46 42V35' stroke='%23E9B44C' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/views.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Navigation principale"></aside>
+    <main class="main">
+      <div id="view-root" aria-live="polite"></div>
+    </main>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile"></nav>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="false"></div>
+
+  <script src="js/engine.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/modals.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
